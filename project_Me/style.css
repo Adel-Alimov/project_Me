@@ -1,0 +1,162 @@
+@font-face{
+    font-family: 'Tilda Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('шрифты/TildaSans-Light.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Tilda Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('шрифты/TildaSans-Bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Tilda Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('шрифты/TildaSans-Medium.ttf') format('truetype');
+}
+
+body{
+    font-family: 'TildaSans';
+    font-weight: 400;
+    color: #000000;
+}
+
+.page-header{
+    padding: 20px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+h1, h3{
+    font-size: 54px;
+}
+
+p{
+    font-size: 36px;
+}
+
+.nav, button{
+    font-size: 25px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.nav-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.navbar-link{
+    color: #000000;
+    text-decoration: none;
+}
+
+.feedback-link{
+    color: #FF9235;
+    border: 2px solid #FF9235;
+    border-radius: 12px;
+    padding: 5px 10px;
+}
+
+.container-title{
+    text-align: center;
+}
+
+.container-text{
+    text-align: center;
+}
+
+.intro-img{
+    text-align: center;
+}
+
+.aboutMe{
+    position: relative;
+    padding-top: 100px;
+    margin-right: -58px;
+    margin-left: -58px;
+}
+
+.me-container{
+    background-color: #5DD9C8;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.me-text{
+    font-family: "TildaSans";
+    display: flex;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    line-height: 54px;
+}
+
+.img-me{
+    position: relative;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.img-me img{
+    border-radius: 12px;
+    border: 3px solid #5DD9C8;
+}
+
+.skills-title{
+    text-align: center;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.table-skills{
+    border-radius: 15px;
+    border: 1px solid #5DD9C8;
+    border-collapse: collapse;
+}
+
+.table-icons{
+    padding-top: 100px;
+}
+
+.table-skills td{
+    width: 300px;
+    text-align: center;
+}
+
+.table-skills td, th:not(:last-child){
+    border-right: 1px solid #5DD9C8;
+}
+
+.table-name{
+    color: #FF9235;
+    font-weight: 600;
+}
+
+.table-list{
+    list-style: none;
+}

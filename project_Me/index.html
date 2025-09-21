@@ -4,204 +4,259 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="page-header">
-        <nav class="nav">
-            <ul class="nav_list">
-                <li>
-                    <a href="#">Главная</a>
-                </li>
-                <li>
-                    <a href="#">Обо мне</a>
-                </li>
-                <li>
-                    <a href="#">Навыки и стек</a>
-                </li>
-                <li>
-                    <a href="#">Проекты</a>
-                </li>
-                <li>
-                    <a href="#">Связаться со мной</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#nav" class="navbar-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#intro" class="navbar-link">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="navbar-link">Навыки и стек</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="navbar-link">Проекты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Feedback" class="navbar-link feedback-link">Связаться со мной</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="intro">
-            <div class="intro-container">
-                <div class="container-title">
-                    <h1>Алимов Адель</h1>
+        <div class="container">
+            <section class="intro" id="intro">
+                <div class="intro-container">
+                    <div class="container-title">
+                        <h1>Алимов Адель</h1>
+                    </div>
+                    <div class="container-text">
+                        <p>Разработка сайтов</p>
+                    </div>
+                    <div class="intro-img">
+                        <img src="Изображения\main.png" alt="" width="809" height="540">
+                    </div>
                 </div>
-                <div class="container-text">
-                    <p>Разработка сайтов</p>
-                </div>
-                <img src="C:\Users\User\Desktop\Eduson\project_Me\Изображения\main.png" alt="">
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <section class="aboutMe">
-            <div class="me-container">
-                <div class="me-title">
-                    <h1>ПРИВЕТ, Я ВЕБ-РАЗРАБОТЧИК</h1>
+        <div class="container">
+            <section class="aboutMe">
+                <div class="me-container">
+                    <div class="me-title">
+                        <h1>ПРИВЕТ, Я ВЕБ-РАЗРАБОТЧИК</h1>
+                    </div>
+                    <div class="me-text">
+                        <p>Я студент Ульяновского Государственного Технического Университета, 
+                            с недавнего времени начал увлекаться веб-разработкой, я сделал несколько проектов на различные темы.
+                            Я сделал сайты на тему введенные санкции против России с начала 2022 года, сайт по истории на тему
+                            значимые события Великой Отечественной Войны с использованием API Яндекс карт. Я начал обучаться в школе Eduson
+                            для того чтобы повысить знания в сфере Frontend разработки, но также хочется развиваться и в backend разработке,
+                            поэтому выбрал курс Fullstack разработчика.
+                        </p>
+                    </div>
                 </div>
-                <div class="me-text">
-                    <p>Я студент Ульяновского Государственного Технического Университета, 
-                        с недавнего времени начал увлекаться веб-разработкой, я сделал несколько проектов на различные темы.
-                        Я сделал сайты на тему введенные санкции против России с начала 2022 года, сайт по истории на тему
-                        значимые события Великой Отечественной Войны с использованием API Яндекс карт. Я начал обучаться в школе Eduson
-                        для того чтобы повысить знания в сфере Frontend разработки, но также хочется развиваться и в backend разработке,
-                        поэтому выбрал курс Fullstack разработчика.
-                    </p>
+                <div class="img-me">
+                    <img src="Изображения/me1.jpg" alt="" width="595" height="635">
                 </div>
-            </div>
-            <div class="img-me">
-                <img src="Изображения/me1.jpg" alt="" width="1000" height="1500">
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <section class="skills">
-            <div class="skills-title">
-                <h1>Навыки и стек технологий</h1>
-            </div>
+        <div class="container">
+            <section class="skills" id="skills">
+                <div class="skills-title">
+                    <h3>Навыки и стек технологий</h3>
+                </div>
 
-            <table class="table-skills">
-                <tr>
-                    <th>
-                        <h3>Разработка сайтов</h3>
-                    </th>
-                    <th>
-                        <h3>Дизайн</h3>
-                    </th>
-                    <th>
-                        <h3>Soft skills</h3>
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Frontend</p>
-                    </td>
-                    <td>
-                        <p>Могу лично сделать индивидуальный дизайн сайта</p>
-                    </td>
-                    <td>
-                        <p>Умение работать в команде, креативность, работа с информацией, самоорганизация</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Языки</p>
-                    </td>
-                    <td>
-                        <p>Инструменты</p>
-                    </td>
-                    <td>
-                        <p>Навыки</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>HTML, CSS</p>
-                    </td>
-                    <td>
-                        <p>Pixso</p>
-                    </td>
-                    <td>
-                        <p>Коммуникативность, самоорганизованность</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Инструменты</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>VS Code, Github, Git</p>
-                    </td>
-                </tr>
-            </table>
-        </section>
-        <section class="projects">
-            <ul class="projects-list">
-                <li class="project-item">
-                    <img src="Изображения/project1.png" alt="" width="500" height="300">
-                    <figcaption><a href="https://github.com/Adel-Alimov/Economic-site">Ссылка на сайт</a></figcaption>
-                </li>
-                <li class="project-item">
-                    <img src="Изображения/project2.png" alt="" width="500" height="300">
-                    <figcaption><a href="https://github.com/Adel-Alimov/vovmap">Ссылка на сайт</a></figcaption>
-                </li>
-            </ul>
-            <div class="link">
-                <a href="https://github.com/Adel-Alimov">Посмотреть на Github</a>
-            </div>
-        </section>
+                <div class="table">
+                    <table class="table-skills">
+                        <tr>
+                            <th width="400" class="table-icons">
+                                <img src="Иконки/Development.svg" alt="">
+                            </th>
+                            <th width="400" class="table-icons">
+                                <img src="Иконки/Design.svg" alt="">
+                            </th>
+                            <th width="400" class="table-icons">
+                                <img src="Иконки/SoftSkills.svg" alt="">
+                            </th>
+                        </tr>
+                        <tr>
+                            <th width="400">
+                                <h3>Разработка сайтов</h3>
+                            </th>
+                            <th width="400">
+                                <h3>Дизайн</h3>
+                            </th>
+                            <th width="400">
+                                <h3>Soft skills</h3>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td width="400">
+                                <p>Frontend</p>
+                            </td>
+                            <td width="400">
+                                <p>Могу лично сделать индивидуальный дизайн сайта</p>
+                            </td>
+                            <td width="400">
+                                <p>Умение работать в команде, креативность, работа с информацией, самоорганизация</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="400" class="table-name">
+                                <p>Языки</p>
+                            </td>
+                            <td width="400" class="table-name">
+                                <p>Инструменты</p>
+                            </td>
+                            <td width="400" class="table-name">
+                                <p>Навыки</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="400">
+                                <p>HTML, CSS</p>
+                            </td>
+                            <td width="400">
+                                <p>Pixso</p>
+                            </td>
+                            <td width="400">
+                                <p>Коммуникативность, самоорганизованность</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="400" class="table-name">
+                                <p>Инструменты</p>
+                            </td>
+                            <td>
 
-        <section class="Feedback">
-            <div class="feedback-container">                
-                <div class="feedback-title">
-                    <h3>Хотите заказать сайт?</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="400">
+                                <ul class="table-list">
+                                    <li>
+                                        <p>VS Code</p>
+                                    </li>
+                                    <li>
+                                        <p>Github</p>
+                                    </li>
+                                    <li>
+                                        <p>Git</p>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="feedback-text">
-                    <p>Напишите мне, чтобы обсудить детали.</p>
-                </div>
-            </div>
-            <div class="container-form">
-                <img src="Изображения/form.png" alt="">
-                <div class="form">
-                    <form action="/" class="contacts-form" method="post">
-                        
-                        <label for="input">Имя</label>
-                        <input type="text">
-                        <label for="input">E-mail</label>
-                        <input type="email"><br>
-                        <label for="input">Расскажите про свою задачу</label><br>
-                        <input type="text">
-                        <button type="submit">Отправить</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <section class="comment">
-            <h3>Отзыв</h3>
-            <p>Люди с которыми я работал остаются довольны резутатом</p>
-            <img src="Изображения/me1.jpg" alt="">
-            <p>Разработчик сделал сайт для университета по истории, очень довольны резутатом, выполнено все в срок</p>
-            <p>Виктор Павловский, УлГТУ, Ульяновск</p>
-            <button class="button-arrow"><img src="Иконки/Arrow-L.svg" alt=""></button>
-            <button class="button-arrow"><img src="Иконки/Arrow-R.svg" alt=""></button>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <section class="collaboration">
-            <ul class="collaboration-list">
-                <li class="collaboration-item">
-                    <h3>Договоримся о сотрудничестве</h3>
-                </li>
-                <li class="collaboration-item">
-                    <p>У вас есть идея проекта или предложение о работе? Напишите мне. Я открыт к разным вариантам сотрудничестваю.</p>
-                </li>
-                <li class="collaboration-item">
-                    <button>Связаться с разработчиком</button>
-                </li>
-            </ul>
-        </section>
-        <section class="icons-container">
-            <div class="icons">
-                <ul class="icons-list">
-                    <li class="icons-item">
-                        <img src="Иконки/TG.svg" alt="">
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="projects" id="projects">
+                <h3>Проекты</h3>
+                <ul class="projects-list">
+                    <li class="project-item">
+                        <img src="Изображения/project1.png" alt="" width="500" height="300">
+                        <figcaption><a href="https://github.com/Adel-Alimov/Economic-site">Ссылка на сайт</a></figcaption>
                     </li>
-                    <li class="icons-item">
-                        <img src="Иконки/Habr.svg" alt="">
-                    </li><li class="icons-item">
-                        <img src="Иконки/Email.svg" alt="">
+                    <li class="project-item">
+                        <img src="Изображения/project2.png" alt="" width="500" height="300">
+                        <figcaption><a href="https://github.com/Adel-Alimov/vovmap">Ссылка на сайт</a></figcaption>
                     </li>
                 </ul>
-            </div>
-        </section>
+                <div class="link">
+                    <a href="https://github.com/Adel-Alimov">Посмотреть на Github</a>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="Feedback" id="Feedback">
+                <div class="feedback-container">                
+                    <div class="feedback-title">
+                        <h3>Хотите заказать сайт?</h3>
+                    </div>
+                    <div class="feedback-text">
+                        <p>Напишите мне, чтобы обсудить детали.</p>
+                    </div>
+                </div>
+                <div class="container-form">
+                    <img src="Изображения/form.png" alt="">
+                    <div class="form">
+                        <form action="/" class="contacts-form" method="post">
+                            
+                            <label for="input">Имя</label>
+                            <input type="text">
+                            <label for="input">E-mail</label>
+                            <input type="email"><br>
+                            <label for="input">Расскажите про свою задачу</label><br>
+                            <input type="text">
+                            <button type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="comment">
+                <h3>Отзыв</h3>
+                <p>Люди с которыми я работал остаются довольны резутатом</p>
+                <img src="Изображения/me1.jpg" alt="">
+                <p>Разработчик сделал сайт для университета по истории, очень довольны резутатом, выполнено все в срок</p>
+                <p>Виктор Павловский, УлГТУ, Ульяновск</p>
+                <button class="button-arrow"><img src="Иконки/Arrow-L.svg" alt=""></button>
+                <button class="button-arrow"><img src="Иконки/Arrow-R.svg" alt=""></button>
+            </section>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <section class="collaboration">
+                <ul class="collaboration-list">
+                    <li class="collaboration-item">
+                        <h3>Договоримся о сотрудничестве</h3>
+                    </li>
+                    <li class="collaboration-item">
+                        <p>У вас есть идея проекта или предложение о работе? Напишите мне. Я открыт к разным вариантам сотрудничестваю.</p>
+                    </li>
+                    <li class="collaboration-item">
+                        <button>Связаться с разработчиком</button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container">
+            <section class="icons-container">
+                <div class="icons">
+                    <ul class="icons-list">
+                        <li class="icons-item">
+                            <img src="Иконки/TG.svg" alt="">
+                        </li>
+                        <li class="icons-item">
+                            <img src="Иконки/Habr.svg" alt="">
+                        </li>
+                        <li class="icons-item">
+                            <img src="Иконки/Email.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
     </footer>
 </body>
 </html>  
