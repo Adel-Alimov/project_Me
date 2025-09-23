@@ -22,6 +22,10 @@
     src: url('шрифты/TildaSans-Medium.ttf') format('truetype');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'TildaSans';
     font-weight: 400;
