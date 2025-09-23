@@ -130,7 +130,14 @@
                                 <p>Pixso</p>
                             </td>
                             <td width="400">
-                                <p>Коммуникативность, самоорганизованность</p>
+                                <ul class="table-list">
+                                    <li>
+                                        <p>Коммуникативность</p>
+                                    </li>
+                                    <li>
+                                        <p>самоорганизованность</p>
+                                    </li>
+                                </ul>
                             </td>
                         </tr>
                         <tr>
@@ -166,15 +173,19 @@
 
         <div class="container">
             <section class="projects" id="projects">
-                <h3>Проекты</h3>
+                <div class="projects-title">
+                    <h3>Проекты</h3>
+                </div>
                 <ul class="projects-list">
                     <li class="project-item">
-                        <img src="Изображения/project1.png" alt="" width="500" height="300">
-                        <figcaption><a href="https://github.com/Adel-Alimov/Economic-site">Ссылка на сайт</a></figcaption>
+                        <a href="https://github.com/Adel-Alimov/Economic-site">
+                            <img src="Изображения/project1.png" alt="" width="500" height="300">
+                        </a>
                     </li>
                     <li class="project-item">
-                        <img src="Изображения/project2.png" alt="" width="500" height="300">
-                        <figcaption><a href="https://github.com/Adel-Alimov/vovmap">Ссылка на сайт</a></figcaption>
+                        <a href="https://github.com/Adel-Alimov/vovmap">
+                            <img src="Изображения/project2.png" alt="" width="500" height="300">
+                        </a>                        
                     </li>
                 </ul>
                 <div class="link">
@@ -197,14 +208,18 @@
                     <img src="Изображения/form.png" alt="">
                     <div class="form">
                         <form action="/" class="contacts-form" method="post">
-                            
-                            <label for="input">Имя</label>
-                            <input type="text">
-                            <label for="input">E-mail</label>
-                            <input type="email"><br>
-                            <label for="input">Расскажите про свою задачу</label><br>
-                            <input type="text">
-                            <button type="submit">Отправить</button>
+                            <label for="name">Имя
+                                <input type="text" name="name" class="form-input">
+                            </label>
+                            <label for="email">E-mail
+                                <input type="email" name="email" class="form-input">
+                            </label>
+                            <label for="text" class="label-form">Расскажите про свою задачу
+                                <input type="text" name="text" class="form-input-text">
+                            </label>
+                            <div class="button-submit">
+                                <button type="submit" class="form-button">Отправить</button>
+                            </div>    
                         </form>
                     </div>
                 </div>
