@@ -32,6 +32,10 @@ body{
     color: #000000;
 }
 
+p, h3, h1{
+    cursor: default;
+}
+
 .page-header{
     padding: 20px 0;
 }
@@ -148,6 +152,7 @@ p{
     border-radius: 15px;
     border: 1px solid #5DD9C8;
     border-collapse: collapse;
+    cursor: default;
 }
 
 .table-icons{
