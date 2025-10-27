@@ -1,0 +1,53 @@
+.projects{
+    margin-top: 200px;
+}
+
+.projects-title{
+    text-align: center;
+}
+
+.projects-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.project-item{
+    border: 2px solid #8063A6;
+    border-radius: 12px;
+}
+
+.project-item:not(:last-child){
+    margin-right: 20px;
+}
+
+.project-item img{
+    border-radius: 12px;
+}
+
+.project-item:hover{
+    opacity: 0.5;
+}
+
+.link{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.link a{
+    font-family: 'TildaSans';
+    text-decoration: none;
+    color: #FF9235;
+    font-size: 30px;
+    border: 3px solid #FF9235;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: 0.7s;
+}
+
+
+.link a:hover{
+    background-color: #FF9235;
+    color: #ffffff;
+    transition: 0.7s;
+}

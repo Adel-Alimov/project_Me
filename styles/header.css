@@ -1,0 +1,48 @@
+.page-header{
+    padding: 20px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.nav, button{
+    font-size: 25px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.nav-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.navbar-link{
+    color: #000000;
+    text-decoration: none;
+}
+
+.feedback-link{
+    color: #FF9235;
+    border: 2px solid #FF9235;
+    border-radius: 12px;
+    padding: 5px 10px;
+    transition: 0.7s;
+}
+
+.feedback-link:hover{
+    background-color: #FF9235;
+    color: #ffffff;
+    transition: 0.7s;
+}

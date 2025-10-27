@@ -1,0 +1,57 @@
+.comment{
+    text-align: center;
+}
+
+.comment p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.comment button:not(:last-child){
+    margin-right: 5px;
+}
+
+.button-arrow-left{
+    background-color: inherit;
+    border-radius: 20px;
+    border: 2px solid #FF9235;
+    transition: 0.7s;
+    cursor: pointer;
+    padding: 1px 10px;
+}
+
+.button-arrow-right{
+    background-color: inherit;
+    border-radius: 20px;
+    border: 2px solid #FF9235;
+    transition: 0.7s;
+    cursor: pointer;
+    padding: 1px 10px;
+}
+
+.button-arrow-left:hover{
+    transition: 0.7;
+    background-color: #FF9235;
+}
+
+.button-arrow-right:hover{
+    transition: 0.7;
+    background-color: #FF9235;
+}
+
+.button-arrow-left:hover .icon-comment{
+    display: none;
+}
+
+.button-arrow-right:hover .icon-comment{
+    display: none;
+}
+
+.button-arrow-left:hover .icon-hover{
+    display: block;
+}
+
+.button-arrow-right:hover .icon-hover{
+    display: block;
+}
+

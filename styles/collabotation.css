@@ -1,0 +1,40 @@
+.collaboration{
+    text-align: center;
+    background-color: #8063A6;
+    color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: -120px;
+    z-index: 20;
+    position: relative;
+}
+
+.collaboration-list{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.collaboration-item {
+    max-width: 700px;
+}
+
+.collaboration-item h3{
+    font-size: 20px;
+}
+
+.collaboration-item a{
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    padding: 15px 10px;
+    transition: 0.3s;
+}
+
+.collaboration-item a:hover{
+    color: #8063A6;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+

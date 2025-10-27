@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'TildaSans';
+    font-weight: 400;
+    color: #000000;
+}
+
+h1, h3{
+    font-size: 54px;
+}
+
+p{
+    font-size: 36px;
+}

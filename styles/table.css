@@ -1,0 +1,38 @@
+.skills-title{
+    text-align: center;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.table-skills{
+    border-radius: 15px;
+    border: 1px solid #5DD9C8;
+    border-collapse: collapse;
+}
+
+.table-icons{
+    padding-top: 100px;
+}
+
+.table-skills td{
+    width: 300px;
+    text-align: center;
+}
+
+.table-skills td, th:not(:last-child){
+    border-right: 1px solid #5DD9C8;
+}
+
+.table-name{
+    color: #FF9235;
+    font-weight: 600;
+}
+
+.table-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

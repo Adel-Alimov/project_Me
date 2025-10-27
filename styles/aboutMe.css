@@ -1,0 +1,33 @@
+.aboutMe{
+    position: relative;
+    padding-top: 100px;
+    margin-right: -58px;
+    margin-left: -58px;
+}
+
+.me-container{
+    background-color: #5DD9C8;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.me-text{
+    font-family: "TildaSans";
+    display: flex;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    line-height: 54px;
+}
+
+.img-me{
+    position: relative;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.img-me img{
+    border-radius: 12px;
+    border: 3px solid #5DD9C8;
+}

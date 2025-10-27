@@ -1,0 +1,43 @@
+.icons-container{
+    position: relative;
+    background-color: #5DD9C8;
+    z-index: 0;
+    margin-left: -60px;
+    margin-right: -58px;
+    min-height: 500px;
+    margin-bottom: -17px;
+}
+
+.icons{
+    padding-top: 150px;
+}
+
+.icons-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons-item{
+    border: 2px solid #000000;
+    border-radius: 48px;
+    padding: 5px;
+}
+
+.icons-item:hover{
+    background-color: #8063A6;
+    border: 2px solid #8063A6;
+}
+
+.icon-a:hover .icon-img{
+    display: none;
+}
+
+.icon-hover{
+    display: none;
+}
+
+.icon-a:hover .icon-hover{
+    display: block;
+}
