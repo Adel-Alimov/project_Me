@@ -1,8 +1,6 @@
 .Feedback{
     position: relative;
     padding-top: 100px;
-    margin-right: -58px;
-    margin-left: -58px;
 }
 
 .feedback-container{
@@ -10,6 +8,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
+    width: 100%;
 }
 
 .container-form{

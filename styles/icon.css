@@ -2,10 +2,10 @@
     position: relative;
     background-color: #5DD9C8;
     z-index: 0;
-    margin-left: -60px;
-    margin-right: -58px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     min-height: 500px;
-    margin-bottom: -17px;
 }
 
 .icons{
