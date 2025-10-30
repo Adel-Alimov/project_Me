@@ -39,19 +39,9 @@
 
 .link a{
     font-family: 'TildaSans', sans-serif;
-    text-decoration: none;
-    color: var(--color-orange);
-    font-size: 25px;
-    border: 3px solid var(--color-orange);
+    text-decoration: none;;
+    font-size: 25px;;
     padding: 10px 20px;
-    border-radius: 12px;
-    transition: 0.7s;
-}
-
-.link a:hover{
-    background-color: var(--color-orange);
-    color: #ffffff;
-    transition: 0.7s;
 }
 
 .project-item:hover .project-item-img{

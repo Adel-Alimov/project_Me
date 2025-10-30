@@ -41,17 +41,3 @@
     color: #000000;
     text-decoration: none;
 }
-
-.feedback-link{
-    color: var(--color-orange);
-    border: 2px solid var(--color-orange);
-    border-radius: 12px;
-    padding: 5px 10px;
-    transition: 0.7s;
-}
-
-.feedback-link:hover{
-    background-color: var(--color-orange);
-    color: #ffffff;
-    transition: 0.7s;
-}

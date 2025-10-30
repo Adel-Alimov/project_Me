@@ -16,3 +16,18 @@ h1, h3{
 p{
     font-size: 36px;
 }
+
+.orange-button{
+    color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+    border-radius: 12px;
+    padding: 5px 10px;
+    transition: background-color 0.7s linear;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.orange-button:hover{
+    background-color: var(--color-orange);
+    color: #ffffff;
+}
