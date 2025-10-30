@@ -43,15 +43,15 @@
 }
 
 .feedback-link{
-    color: #FF9235;
-    border: 2px solid #FF9235;
+    color: var(--color-orange);
+    border: 2px solid var(--color-orange);
     border-radius: 12px;
     padding: 5px 10px;
     transition: 0.7s;
 }
 
 .feedback-link:hover{
-    background-color: #FF9235;
+    background-color: var(--color-orange);
     color: #ffffff;
     transition: 0.7s;
 }
