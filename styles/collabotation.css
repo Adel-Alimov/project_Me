@@ -1,6 +1,6 @@
 .collaboration{
     text-align: center;
-    background-color: #8063A6;
+    background-color: var(--color-purple);
     color: #ffffff;
     border-radius: 12px;
     margin-bottom: -120px;
@@ -33,7 +33,7 @@
 }
 
 .collaboration-item a:hover{
-    color: #8063A6;
+    color: var(--color-purple);
     background-color: #ffffff;
     transition: 0.3s;
 }

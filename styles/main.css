@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    font-family: 'TildaSans';
+    font-family: 'TildaSans', sans-serif;
     font-weight: 400;
     color: #000000;
     margin: 0;
@@ -15,4 +15,19 @@ h1, h3{
 
 p{
     font-size: 36px;
+}
+
+.orange-button{
+    color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+    border-radius: 12px;
+    padding: 5px 10px;
+    transition: background-color 0.7s linear;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.orange-button:hover{
+    background-color: var(--color-orange);
+    color: #ffffff;
 }

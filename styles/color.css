@@ -1,0 +1,9 @@
+:root{
+    --color-purple: #8063A6;
+    --color-orange: #FF9235;
+    --color-sea: #5DD9C8;
+}
+
+.back-color-sea{
+    background-color: #5DD9C8;
+}

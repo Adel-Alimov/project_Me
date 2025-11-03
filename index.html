@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Портфолио</title>
+    <meta property="og:title" content="Мои навыки" />
+    <meta name="keywords" content="портфолио, веб-разработчик, сайты, навыки" />
     <link rel="stylesheet" href="styles/icon.css">
     <link rel="stylesheet" href="styles/font.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -15,8 +19,9 @@
     <link rel="stylesheet" href="styles/feedback.css">
     <link rel="stylesheet" href="styles/comment.css">
     <link rel="stylesheet" href="styles/collabotation.css">
+    <link rel="stylesheet" href="styles/color.css">
 </head>
-<body>
+<body tabindex="0">
     <header class="page-header">
             <nav class="nav">
                 <ul class="nav-list">
@@ -33,11 +38,37 @@
                         <a href="#projects" class="navbar-link">Проекты</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Feedback" class="navbar-link feedback-link">Связаться со мной</a>
                     </li>
                 </ul>
+                <div class="nav-link-a">
+                    <a href="#Feedback" class=" orange-button">Связаться со мной</a>
+                </div>
+            </nav>
+
+            <nav class="mobile-nav">
+                <details>
+                    <summary></summary>
+                    <ul class="nav-list-mobile">
+                        <li class="nav-item-mobile">
+                            <a href="#intro" class="navbar-link">Главная</a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="#aboutMe" class="navbar-link">Обо мне</a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="#skills" class="navbar-link">Навыки и стек</a>
+                        </li>
+                        <li class="nav-item-mobile">
+                            <a href="#projects" class="navbar-link">Проекты</a>
+                        </li>
+                    </ul>
+                </details>
+                <div class="nav-link-a mobile-a">
+                    <a href="#Feedback" class=" orange-button">Связаться со мной</a>
+                </div>
             </nav>
     </header>
+    
 
     <main>
         <div class="container">
@@ -50,14 +81,14 @@
                         <p>Разработка сайтов</p>
                     </div>
                     <div class="intro-img">
-                        <img src="assets/Изображения\main.png" alt="" width="809" height="540">
+                        <img src="assets/Изображения\main.png" alt="Фото компьютера" >
                     </div>
                 </div>
             </section>
         </div>
 
             <section class="aboutMe" id="aboutMe">
-                <div class="me-container">
+                <div class="me-container back-color-sea">
                     <div class="me-title">
                         <h1>ПРИВЕТ, Я ВЕБ-РАЗРАБОТЧИК</h1>
                     </div>
@@ -71,9 +102,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="img-me">
+                <figure class="img-me">
                     <img src="assets/Изображения/me1.jpg" alt="" width="595" height="635">
-                </div>
+                </figure>
             </section>
         
 
@@ -82,81 +113,18 @@
                 <div class="skills-title">
                     <h3>Навыки и стек технологий</h3>
                 </div>
-
                 <div class="table">
-                    <table class="table-skills">
-                        <tr>
-                            <th width="400" class="table-icons">
-                                <img src="assets/Иконки/Development.svg" alt="">
-                            </th>
-                            <th width="400" class="table-icons">
-                                <img src="assets/Иконки/Design.svg" alt="">
-                            </th>
-                            <th width="400" class="table-icons">
-                                <img src="assets/Иконки/SoftSkills.svg" alt="">
-                            </th>
-                        </tr>
-                        <tr>
-                            <th width="400">
+                    <div class="table-skills">
+                        <div class="skills-item">
+                            <div class="skills-section">
+                                <img src="assets/Иконки/Development.svg" alt="Иконка сайта" class="table-icons">
                                 <h3>Разработка сайтов</h3>
-                            </th>
-                            <th width="400">
-                                <h3>Дизайн</h3>
-                            </th>
-                            <th width="400">
-                                <h3>Soft skills</h3>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td width="400">
                                 <p>Frontend</p>
-                            </td>
-                            <td width="400">
-                                <p>Могу лично сделать индивидуальный дизайн сайта</p>
-                            </td>
-                            <td width="400">
-                                <p>Умение работать в команде, креативность, работа с информацией, самоорганизация</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="400" class="table-name">
-                                <p>Языки</p>
-                            </td>
-                            <td width="400" class="table-name">
-                                <p>Инструменты</p>
-                            </td>
-                            <td width="400" class="table-name">
-                                <p>Навыки</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="400">
+                            </div>
+                            <div class="skills-section">
+                                <p class="table-name">Языки</p>
                                 <p>HTML, CSS</p>
-                            </td>
-                            <td width="400">
-                                <p>Pixso</p>
-                            </td>
-                            <td width="400">
-                                <ul class="table-list">
-                                    <li>
-                                        <p>Коммуникативность</p>
-                                    </li>
-                                    <li>
-                                        <p>самоорганизованность</p>
-                                    </li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="400" class="table-name">
-                                <p>Инструменты</p>
-                            </td>
-                            <td>
-
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="400">
+                                <p class="table-name">Инструменты</p>
                                 <ul class="table-list">
                                     <li>
                                         <p>VS Code</p>
@@ -168,12 +136,39 @@
                                         <p>Git</p>
                                     </li>
                                 </ul>
-                            </td>
-                            <td>
-
-                            </td>
-                        </tr>
-                    </table>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-section">
+                                <img src="assets/Иконки/Design.svg" alt="Иконка дизайна" class="table-icons">
+                                <h3>Дизайн</h3>
+                                <p>Могу лично сделать индивидуальный дизайн сайта</p>
+                            </div>
+                            <div class="skills-section">
+                                <p class="table-name">Инструменты</p>
+                                <p>Pixso, figma</p>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-section">
+                                <img src="assets/Иконки/SoftSkills.svg" alt="Иконка SoftSkills" class="table-icons">
+                                <h3>Soft skills</h3>
+                                <p>Умение работать в команде, креативность, работа с информацией, самоорганизация</p>
+                            </div>
+                            <div class="skills-section">
+                                <p class="table-name">Навыки</p>
+                                <ul class="table-list">
+                                    <li>
+                                        <p>Коммуникативность</p>
+                                    </li>
+                                    <li>
+                                        <p>самоорганизованность</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
@@ -185,25 +180,44 @@
                 </div>
                 <ul class="projects-list">
                     <li class="project-item">
-                        <a href="https://github.com/Adel-Alimov/Economic-site">
+                        <div class="project-item-img">
                             <img src="assets/Изображения/project1.png" alt="" width="500" height="300">
-                        </a>
+                        </div>
+                        <div class="project-item-link">
+                            <p class="link-text">
+                                Санкции, которые ввели против России с 2022-2024г. 
+                            </p>
+                            <a href="https://adel-alimov.github.io/Economic-site/" class="item-link">
+                                <p class="item-link-text">Посмотреть сайт</p>
+                            </a>
+                        </div>
+                        
                     </li>
                     <li class="project-item">
-                        <a href="https://github.com/Adel-Alimov/vovmap">
+                        <div class="project-item-img">
                             <img src="assets/Изображения/project2.png" alt="" width="500" height="300">
-                        </a>                        
+                        </div>
+                        <div class="project-item-link">
+                            <p class="link-text">
+                                Интерактивная карта событий Великой Отечественной Войны. 
+                            </p>
+                            <div class="item-link-a">
+                                <a href="https://adel-alimov.github.io/vovmap/" class="item-link">
+                                    <p class="item-link-text">Посмотреть сайт</p>
+                                </a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
-                <div class="link">
-                    <a href="https://github.com/Adel-Alimov">Посмотреть на Github</a>
+                <div class="link ">
+                    <a href="https://github.com/Adel-Alimov" class="orange-button">Посмотреть на Github</a>
                 </div>
             </section>
         </div>
 
         
             <section class="Feedback" id="Feedback">
-                <div class="feedback-container">                
+                <div class="feedback-container back-color-sea">                
                     <div class="feedback-title">
                         <h3>Хотите заказать сайт?</h3>
                     </div>
@@ -225,7 +239,7 @@
                                 <input type="text" name="text" class="form-input-text">
                             </label>
                             <div class="button-submit">
-                                <button type="submit" class="form-button">Отправить</button>
+                                <button type="submit" class="form-button orange-button">Отправить</button>
                             </div>    
                         </form>
                     </div>
@@ -235,7 +249,7 @@
 
         <div class="container">
             <section class="comment">
-                <h3>Отзывы</h3>
+                <h3>ОТЗЫВЫ</h3>
                 <p>Люди с которыми я работал остаются довольны резутатом</p>
                 <img src="assets/Изображения/me1.jpg" alt="" width="395" height="435" class="comment-img">
                 <p>Разработчик сделал сайт для университета по истории, очень довольны резутатом, выполнено все в срок</p>
@@ -267,7 +281,7 @@
         </div>
 
         
-            <section class="icons-container">
+            <section class="icons-container back-color-sea">
                 <div class="icons">
                     <ul class="icons-list">
                         <li class="icons-item">

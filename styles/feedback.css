@@ -4,7 +4,6 @@
 }
 
 .feedback-container{
-    background-color: #5DD9C8;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
@@ -29,7 +28,7 @@
 .contacts-form input{
     display: flex;
     border-radius: 12px;
-    border: 1px solid #FF9235;
+    border: 1px solid var(--color-orange);
 }
 
 .form-input{
@@ -61,18 +60,6 @@
     width: 200px;
     margin-top: 20px;
     height: 50px;
-    border-radius: 12px;
-    background-color: #ffffff;
-    border: 2px solid #FF9235;
-    cursor: pointer;
-    color: #FF9235;
-    transition: 0.7s;
-}
-
-.form-button:hover{
-    background-color: #FF9235;
-    color: #ffffff;
-    transition: 0.7s;
 }
 
 .label-form{
