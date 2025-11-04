@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and(max-width: 900px) {
+@media screen and (max-width: 900px) {
     .table{
         display: flex;
     }

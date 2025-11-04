@@ -226,21 +226,27 @@
                     </div>
                 </div>
                 <div class="container-form">
-                    <img src="assets/Изображения/form.png" alt="">
+                    <img src="assets/Изображения/form.png" alt="Компьютер с командами" class="form-img">
                     <div class="form">
                         <form action="/" class="contacts-form" method="post">
-                            <label for="name">Имя
-                                <input type="text" name="name" class="form-input">
-                            </label>
-                            <label for="email">E-mail
-                                <input type="email" name="email" class="form-input">
-                            </label>
-                            <label for="text" class="label-form">Расскажите про свою задачу
-                                <input type="text" name="text" class="form-input-text">
-                            </label>
-                            <div class="button-submit">
-                                <button type="submit" class="form-button orange-button">Отправить</button>
-                            </div>    
+                            <fieldset class="form-name-email">
+                                <label for="name">Имя
+                                    <input type="text" name="name" class="form-input">
+                                </label>
+                                <label for="email">E-mail
+                                    <input type="email" name="email" class="form-input">
+                                </label>
+                            </fieldset>
+                            <fieldset class="form-task">
+                                <label for="text" class="label-form">Расскажите про свою задачу
+                                    <textarea name="body" class="form-input"></textarea>
+                                </label>
+                            </fieldset>
+                            <fieldset class="form-submit">
+                                <div class="button-submit">
+                                    <button type="submit" class="form-button orange-button">Отправить</button>
+                                </div>
+                            </fieldset>
                         </form>
                     </div>
                 </div>
@@ -274,7 +280,7 @@
                         <p>У вас есть идея проекта или предложение о работе? Напишите мне. Я открыт к разным вариантам сотрудничестваю.</p>
                     </li>
                     <li class="collaboration-item">
-                        <a href="#Feedback">Связаться с разработчиком</a>
+                        <a href="#Feedback" class="coll-link">Связаться с разработчиком</a>
                     </li>
                 </ul>
             </section>

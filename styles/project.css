@@ -27,8 +27,8 @@
 
 .project-item img{
     border-radius: 12px;
-    width: 430px;
-    height: 242px;
+    width: 425px;
+    height: 235px;
 }
 
 
@@ -67,6 +67,7 @@
 }
 
 .item-link{
+    display: flex;
     text-decoration: none;
     color: #ffffff;
 }

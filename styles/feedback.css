@@ -12,42 +12,47 @@
 
 .container-form{
     display: flex;
-    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.container-form fieldset{
+    border: none;
+}
+
+.form-img{
+    width: 100%;
+    height: 100%;
 }
 
 .contacts-form{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10%;
-    margin-left: 5%;
-    width: 85%;
-    font-weight: 400px;
+    margin-top: 100px;
 }
 
-
-.contacts-form input{
+.form-name-email{
     display: flex;
-    border-radius: 12px;
-    border: 1px solid var(--color-orange);
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 30px;
+}
+
+.form-task{
+    margin-top: 50px;
+    width: 80%;
+}
+
+.form-task textarea{
+    width: 100%;
+    height: 80px;
 }
 
 .form-input{
-    min-height: 40px;
-    min-width: 178px;
-}
-
-.contacts-form label{
-    font-family: 'TildaSans';
-    font-weight: 400;
-}
-
-.contacts-form label:not(:last-child){
-    margin-right: 40px;
-}
-
-.form-input-text{
-    min-width: 550px;
-    min-height: 100px;
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid var(--color-orange);
+    width: 100%;
+    height: 100%;
+    padding: 6px;
 }
 
 .button-submit{
@@ -64,4 +69,10 @@
 
 .label-form{
     margin-top: 50px;
+}
+
+@media screen and (max-width: 900px){
+    .container-form{
+        flex-direction: column;
+    }
 }
