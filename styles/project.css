@@ -9,7 +9,10 @@
 .projects-list{
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 68%;
+
 }
 
 .project-item{
@@ -21,9 +24,6 @@
 
 }
 
-.project-item:not(:last-child){
-    margin-right: 20px;
-}
 
 .project-item img{
     border-radius: 12px;
@@ -84,4 +84,12 @@
 .item-link-text:hover{
     color: var(--color-purple);
     background-color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+    .projects-list{
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
