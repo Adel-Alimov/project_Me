@@ -29,8 +29,8 @@
 
 .table-icons{
     padding-top: 100px;
-    width: 72px;
-    height: 72px;
+    max-width: 72px;
+    max-height: 72px;
     margin: 0 auto;
 }
 
@@ -59,6 +59,7 @@
 @media screen and (max-width: 900px) {
     .table{
         display: flex;
+        margin: -30px;
     }
     .skills-item{
         padding: 0;

@@ -89,8 +89,33 @@
 
 @media screen and (max-width: 900px) {
     .projects-list{
-        margin: 0 auto;
+        margin: -50px;
         flex-direction: column;
         gap: 20px;
+    }
+
+    .project-item{
+        border: 2px solid var(--color-purple);
+        border-radius: 12px;
+        width: 330px;
+        height: 142px;
+        transition: transform 0.5s linear;
+    }
+    
+    .project-item img{
+        border-radius: 12px;
+        width: 325px;
+        height: 135px;
+    }
+
+    
+    .project-item:hover{
+        background-color: var(--color-purple);
+        font-family: 'TildaSans', sans-serif;
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
+        line-height: 30px;
+        height: 100%;
     }
 }
